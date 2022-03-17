@@ -17,38 +17,38 @@
       <![CDATA[=====Database close successdully======]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="15266" started-at="2022-03-17T05:27:46Z" finished-at="2022-03-17T05:28:01Z">
+  <suite name="Default suite" duration-ms="15534" started-at="2022-03-17T05:45:39Z" finished-at="2022-03-17T05:45:55Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="15266" started-at="2022-03-17T05:27:46Z" finished-at="2022-03-17T05:28:01Z">
-      <class name="Listners.CreatecontactwithLeadsource">
-        <test-method status="PASS" signature="connectToDataBase()[pri:0, instance:Listners.CreatecontactwithLeadsource@5700d6b1]" name="connectToDataBase" is-config="true" duration-ms="24" started-at="2022-03-17T05:27:46Z" finished-at="2022-03-17T05:27:46Z">
+    <test name="Default test" duration-ms="15534" started-at="2022-03-17T05:45:39Z" finished-at="2022-03-17T05:45:55Z">
+      <class name="Listners.Createorg">
+        <test-method status="PASS" signature="connectToDataBase()[pri:0, instance:Listners.Createorg@5700d6b1]" name="connectToDataBase" is-config="true" duration-ms="24" started-at="2022-03-17T05:45:39Z" finished-at="2022-03-17T05:45:39Z">
           <reporter-output>
             <line>
               <![CDATA[**db connection successsful**]]>
             </line>
           </reporter-output>
         </test-method> <!-- connectToDataBase -->
-        <test-method status="PASS" signature="launchTheBrowser()[pri:0, instance:Listners.CreatecontactwithLeadsource@5700d6b1]" name="launchTheBrowser" is-config="true" duration-ms="6090" started-at="2022-03-17T05:27:47Z" finished-at="2022-03-17T05:27:53Z">
+        <test-method status="PASS" signature="launchTheBrowser()[pri:0, instance:Listners.Createorg@5700d6b1]" name="launchTheBrowser" is-config="true" duration-ms="5069" started-at="2022-03-17T05:45:40Z" finished-at="2022-03-17T05:45:45Z">
           <reporter-output>
             <line>
               <![CDATA[***browser launch successfull]]>
             </line>
           </reporter-output>
         </test-method> <!-- launchTheBrowser -->
-        <test-method status="PASS" signature="login()[pri:0, instance:Listners.CreatecontactwithLeadsource@5700d6b1]" name="login" is-config="true" duration-ms="5269" started-at="2022-03-17T05:27:53Z" finished-at="2022-03-17T05:27:58Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:Listners.Createorg@5700d6b1]" name="login" is-config="true" duration-ms="5865" started-at="2022-03-17T05:45:45Z" finished-at="2022-03-17T05:45:50Z">
           <reporter-output>
             <line>
               <![CDATA[**********login successfull********]]>
             </line>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="FAIL" signature="createcontactlink()[pri:0, instance:Listners.CreatecontactwithLeadsource@5700d6b1]" name="createcontactlink" duration-ms="1961" started-at="2022-03-17T05:27:58Z" finished-at="2022-03-17T05:28:00Z">
+        <test-method status="FAIL" signature="createOrganizationTest()[pri:0, instance:Listners.Createorg@5700d6b1]" name="createOrganizationTest" duration-ms="2366" started-at="2022-03-17T05:45:50Z" finished-at="2022-03-17T05:45:53Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
 at com.crm.GenericLibrary.ExcelFileUtility.readDataFromExcel(ExcelFileUtility.java:29)
-at Listners.CreatecontactwithLeadsource.createcontactlink(CreatecontactwithLeadsource.java:22)
+at Listners.Createorg.createOrganizationTest(Createorg.java:27)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -79,26 +79,26 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createcontactlink -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:Listners.CreatecontactwithLeadsource@5700d6b1]" name="logout" is-config="true" duration-ms="970" started-at="2022-03-17T05:28:00Z" finished-at="2022-03-17T05:28:01Z">
+        </test-method> <!-- createOrganizationTest -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:Listners.Createorg@5700d6b1]" name="logout" is-config="true" duration-ms="1390" started-at="2022-03-17T05:45:53Z" finished-at="2022-03-17T05:45:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Listners.CreatecontactwithLeadsource@5700d6b1]" name="closeBrowser" is-config="true" duration-ms="2" started-at="2022-03-17T05:28:01Z" finished-at="2022-03-17T05:28:01Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Listners.Createorg@5700d6b1]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2022-03-17T05:45:55Z" finished-at="2022-03-17T05:45:55Z">
           <reporter-output>
             <line>
               <![CDATA[*****browser close successfully*******]]>
             </line>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="closedb()[pri:0, instance:Listners.CreatecontactwithLeadsource@5700d6b1]" name="closedb" is-config="true" duration-ms="6" started-at="2022-03-17T05:28:03Z" finished-at="2022-03-17T05:28:03Z">
+        <test-method status="PASS" signature="closedb()[pri:0, instance:Listners.Createorg@5700d6b1]" name="closedb" is-config="true" duration-ms="0" started-at="2022-03-17T05:45:56Z" finished-at="2022-03-17T05:45:56Z">
           <reporter-output>
             <line>
               <![CDATA[=====Database close successdully======]]>
             </line>
           </reporter-output>
         </test-method> <!-- closedb -->
-      </class> <!-- Listners.CreatecontactwithLeadsource -->
+      </class> <!-- Listners.Createorg -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

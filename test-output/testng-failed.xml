@@ -3,17 +3,17 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Listners.CreatecontactwithLeadsource">
+      <class name="Listners.Createorg">
         <methods>
           <include name="closedb"/>
           <include name="logout"/>
           <include name="closeBrowser"/>
           <include name="connectToDataBase"/>
-          <include name="createcontactlink"/>
           <include name="login"/>
+          <include name="createOrganizationTest"/>
           <include name="launchTheBrowser"/>
         </methods>
-      </class> <!-- Listners.CreatecontactwithLeadsource -->
+      </class> <!-- Listners.Createorg -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

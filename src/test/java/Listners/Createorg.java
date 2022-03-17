@@ -24,7 +24,7 @@ public class Createorg extends BaseClass
 	@Test
 	public void createOrganizationTest() throws Throwable
 	{
-		String orgName = eLib.readDataFromExcel("Org",1,1);
+		String orgName = eLib.readDataFromExcel("Org",1,10000);
 		String orgNameR = orgName +jLib.getRandomNumber();
 		
 		HomePage hp = new HomePage( driver);

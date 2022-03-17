@@ -61,13 +61,13 @@ public class ITestListnerImplementationClass implements ITestListener {
 		//Step 2: using screenshot method from webDriver Utility
 		try {
 			
-			new WebDriverUtility().getScreenShot(BaseClass.sdriver, screenshotName);
+			path = new WebDriverUtility().getScreenShot(BaseClass.sdriver, screenshotName);
 			
 	
 			//EventFiringWebDriver eDriver = new EventFiringWebDriver(BaseClass.sDriver);
 			//File src = eDriver.getScreenshotAs(OutputType.FILE);
 			//String pa = System.getProperty("user.dir")+"/ScreenShots/"+screenshotName+".PNG";
-			 path = "./Screenshots/"+screenshotName+".png";
+			// path = "./Screenshots/"+screenshotName+".png";
 			//File dst = new File(pa);
 			//Files.copy(src, dst);
 			
